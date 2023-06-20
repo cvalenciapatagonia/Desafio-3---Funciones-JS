@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+  }
+
+
+#div1, #div2, #div3, #div4{
+    height: 200px;
+    width: 200px;
+    border: solid 2px black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+#div1{
+    background-color: rgb(56, 184, 56);
+}
+
+#div2{
+    background-color: rgb(230, 10, 10);
+}
+#div3{    background-color: rgb(241, 241, 4);
+}
+#div4{
+    background-color: rgb(2, 2, 243);
+}
